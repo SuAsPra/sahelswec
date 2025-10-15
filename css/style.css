@@ -649,3 +649,41 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ...existing code... */
+
+/* Make the logo smaller and align it to the very left in the navbar */
+.navbar .logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 34px;    /* Reduce logo height for mobile */
+  width: auto;
+  max-width: 110px;
+  display: block;
+  margin: 0;
+}
+
+/* Ensure navbar uses space efficiently on mobile */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0 8px;
+  }
+  .navbar .logo img {
+    height: 28px;
+    max-width: 90px;
+  }
+  .nav-links {
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav-links li {
+    margin: 0 2px;
+  }
+}
