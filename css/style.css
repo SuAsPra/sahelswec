@@ -638,10 +638,10 @@ body {
 /* Ensure navbar uses space efficiently on mobile */
 @media (max-width: 600px) {
   .navbar {
-    padding: 0 8px;
+    padding: 0 2px;
   }
   .navbar .logo img {
-    height: 34px;
+    height: 30px;
     max-width: 80px;
     padding-left: 0;
   }
@@ -652,6 +652,6 @@ body {
     padding-right: 0;
   }
   .nav-links li {
-    margin: 0 2px;
+    margin: 0 1px;
   }
 }
