@@ -647,7 +647,8 @@ body {
   }
   .nav-links {
     gap: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.92rem;   /* Slightly smaller font size - the last letters of contact tab
+    may get hidden in  */
     padding-left: 0;
     padding-right: 0;
   }
