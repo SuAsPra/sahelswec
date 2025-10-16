@@ -89,12 +89,13 @@ header {
 .navbar .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  align-items: left;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .navbar a {
@@ -111,11 +112,6 @@ header {
 /* Focus states */
 .navbar a:focus-visible,
 .btn:focus-visible,
-.donate-btn:focus-visible {
-  outline: 3px solid #ffffff;
-  outline-offset: 2px;
-  box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.6);
-}
 
 /* Hero Section */
 .hero {
@@ -153,17 +149,6 @@ header {
 
 /* Buttons */
 .btn,
-.donate-btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: var(--color-accent);
-  color: #000;
-  font-weight: bold;
-  border-radius: var(--radius-1);
-  text-decoration: none;
-  transition: background 0.3s ease;
-  cursor: pointer;
-}
 
 .btn:hover,
 .donate-btn:hover {
@@ -190,26 +175,8 @@ header {
   .who-we-are .container { text-align: center; }
 }
 
-/* Donation Page */
-.donation-container {
-  text-align: center;
-  padding: 4rem 1.5rem;
-  background-color: var(--color-dull-orange-2);
-  color: var(--color-white);
-}
+/* Donation Page - left/ removed*/
 
-.qr-placeholder {
-  width: 250px;
-  height: 250px;
-  border: 2px dashed #ccc;
-  display: inline-block;
-  margin-top: 30px;
-  line-height: 250px;
-  color: #aaa;
-  font-size: 16px;
-  border-radius: 8px;
-  background: #fff;
-}
 
 /* Footer */
 footer {
@@ -373,12 +340,12 @@ footer {
   }
 }
 
-/* Mobile nav */
+/* Mobile nav 
 @media (max-width: 768px) {
   .navbar ul {
     gap: var(--space-2);
   }
-}
+}*/
 
 /* Home gallery */
 /* ...existing code... */
@@ -657,13 +624,13 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .navbar .logo img {
-  height: 34px;    /* Reduce logo height for mobile */
+  height: 38px;    /* Reduce logo height for mobile */
   width: auto;
-  max-width: 110px;
+  max-width: 90px;
   display: block;
   margin: 0;
 }
@@ -674,8 +641,9 @@ body {
     padding: 0 8px;
   }
   .navbar .logo img {
-    height: 28px;
-    max-width: 90px;
+    height: 34px;
+    max-width: 80px;
+    padding-left: 0;
   }
   .nav-links {
     gap: 0.5rem;
