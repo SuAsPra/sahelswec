@@ -1,6 +1,6 @@
-# 🌍 Sahel Women English Connect (SWEC)
+# 🌍 Sahel Women Education Connect (SWEC)
 
-**Sahel Women English Connect (SWEC)** is a grassroots initiative dedicated to empowering conflict-affected and vulnerable women and girls of the **Sahel regions of Cameroon and beyond**.  
+**Sahel Women Education Connect (SWEC)** is a grassroots initiative dedicated to empowering conflict-affected and vulnerable women and girls of the **Sahel regions of Cameroon and beyond**.  
 
 ---
 
