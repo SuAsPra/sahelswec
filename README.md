@@ -41,8 +41,10 @@ This makes the website **self-updating and low-maintenance**, even without devel
 ## 🛠️ Tech Stack
 - **HTML5**  
 - **CSS3**  
-- **Responsive Design (Flexbox / Media Queries)**  
-- **Static Hosting (Render)**  
+- **JavaScript (Dynamic data loading via Fetch API)**
+- **Responsive Design** (Flexbox / Media Queries)
+- **Google Apps Script (for live data API)**
+- **Static Hosting (Render)**
 
 ---
 
