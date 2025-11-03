@@ -50,17 +50,29 @@ This makes the website **self-updating and low-maintenance**, even without devel
 
 ## 📁 Folder Structure
 SWEC/
+
 │
+
 ├── index.html
+
 ├── about.html
+
 ├── projects.html
+
 ├── contact.html
+
 │
+
 ├── assets/
+
 │ ├── banner.jpg
+
 │ ├── logo.jpg (many more images)
+
 │
+
 └── css/
+
 └── style.css
 
 ## 🚀 Setup Instructions
